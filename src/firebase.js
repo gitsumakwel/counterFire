@@ -12,13 +12,13 @@ const password = process.env.REACT_APP_YEK;
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyDH-MpbnOzGXHq0AIxg7N7EffQbyBs7Bws",
-  authDomain: "fire-counter-3108a.firebaseapp.com",
-  projectId: "fire-counter-3108a",
-  storageBucket: "fire-counter-3108a.appspot.com",
-  messagingSenderId: "784063884227",
-  appId: "1:784063884227:web:42ba739ef17dd99671eb76",
-  measurementId: "G-CWKKN4LD1D"
+  apiKey: process.env.REACT_APP_D_API_KEY,
+  authDomain: process.env.REACT_APP_D_DOMAIN,
+  projectId: process.env.REACT_APP_D_PROJECT_ID,
+  storageBucket: process.env.REACT_APP_D_STORAGE,
+  messagingSenderId: process.env.REACT_APP_D_MESSENGER_ID,
+  appId: process.env.REACT_APP_D_APP_ID,
+  measurementId: process.env.REACT_APP_D_MEASUREMENT,
 };
 
 
